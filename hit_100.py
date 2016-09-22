@@ -26,3 +26,13 @@ def run_tests():
 # Edit this code
 def hit_100(score):
 
+    if score > 100:
+       print("Too High")
+
+    elif score < 100:
+        print("Too Low")
+
+    elif score == 100:
+        print("Winner") 
+    
+
