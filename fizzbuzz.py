@@ -32,3 +32,24 @@ def run_tests():
 
 # Edit this function
 def fizzbuzz(n):
+
+    rem3 = n % 3
+    rem5 = n % 5
+
+
+  
+    if n % 3 == 0 and n % 5 == 0:
+        print("FizzBuzz")
+        
+    elif n % 3 == 0:
+        print("Fizz")
+
+    elif n % 5 == 0:
+        print("Buzz")
+
+    else:
+        print(n)
+
+        
+        
+        
