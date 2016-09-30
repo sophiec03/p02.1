@@ -33,8 +33,6 @@ def run_tests():
 # Edit this function
 def fizzbuzz(n):
 
-    rem3 = n % 3
-    rem5 = n % 5
 
 
   
